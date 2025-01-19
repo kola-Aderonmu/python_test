@@ -63,9 +63,9 @@ shopping_cart = []
 
 while True:
     # Prompt the user to add an item to the cart
-    item_name = input("Enter item name (or 'done' to finish): ").strip()
+    item_name = input("Enter item name (or 'done or d' to finish order): ").strip()
 
-    if item_name.lower() == 'done':
+    if item_name.lower() == 'done' or item_name.lower() == 'd':
         break  # Exit the loop when the user is done adding items
 
     try:
@@ -96,6 +96,5 @@ while True:
 
     except ValueError:
         print("Invalid input. Please try again.")
-
 # Display the cart summary after exiting the loop
 display_cart(shopping_cart)
