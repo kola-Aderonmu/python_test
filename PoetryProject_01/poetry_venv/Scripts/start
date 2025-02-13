@@ -1,0 +1,6 @@
+#!C:\Users\Black~~Knight\Desktop\python_test\PoetryProject_01\poetry_venv\Scripts\python.exe
+import sys
+from qr_generator.main import main
+
+if __name__ == '__main__':
+    sys.exit(main())
