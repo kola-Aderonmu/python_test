@@ -1,0 +1,10 @@
+[
+    {
+        "employee_id": 2,
+        "name": "John Doe",
+        "age": 35,
+        "department": "IT",
+        "role": "Developer",
+        "salary": 70000.0
+    }
+]
